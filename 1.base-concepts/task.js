@@ -9,13 +9,11 @@ function solveEquation(a, b, c) {
   } else if(d == 0) {
     let root = -b/(2*a);
     arr.push(root);
-  } else if(d < 0) {
-    arr.push()
   }
   return arr;
 }
 
-solveEquation(2,3,4)
+console.log(solveEquation(2,3,4))
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let rate = (percent/100)/12;
